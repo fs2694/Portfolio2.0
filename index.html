@@ -8,12 +8,12 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Selene - Free Bootstrap Theme</title>
+        <title>Selene - Portfolio</title>
         
 
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="apple-touch-icon" href="apple-touch-icon.jpg">
 
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
@@ -36,17 +36,17 @@
                 <span class="icon-bar"></span> -->
             </button>
             <!--/.navbar-header-->
-            <div id="main-nav" class="collapse navbar-collapse">
+            <div id="main-nav" data-toggle="collapse" data-target=".navbar-collapse" class="collapse navbar-collapse">
                 <nav>
                     <ul class="nav navbar-nav">
-                        <li><a href="#top">Home</a></li>
-                        <li><a href="#featured">Featured Coding</a></li>
-                        <li><a href="#architecture">Architecture & Landscape</a></li>
-                        <li><a href="#art">Art & Design</a></li>
-                        <li><a href="#cooking">Cooking & Bakery</a></li>
-                        <li><a href="#STEAMEd">STEAM & Education</a></li>
-                        <li><a href="#blog">Blog Entries</a></li>
-                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#top">Home</a></li>
+                        <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#featured">Featured Coding</a></li>
+                        <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#architecture">Architecture & Landscape</a></li>
+                        <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#art">Art & Design</a></li>
+                        <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#cooking">Cooking & Bakery</a></li>
+                        <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#STEAMEd">STEAM & Education</a></li>
+                        <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#blog">Blog Entries</a></li>
+                        <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#contact">Contact Us</a></li>
                     </ul>
                 </nav>
             </div>
@@ -248,11 +248,17 @@
                             <div class="item">
                                 <div class="col-md-8">
                                     <img onclick="openModal('myModal');currentSlide(1, 'mySlides', 'demo')" src="img/shj1.jpg" alt="image 1">
+                                    <div class="overlay">
+                                      <div class="text">Garden Restaurant</div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="col-md-4">
                                     <img onclick="openModal('myModal4');currentSlide(1, 'mySlides4', 'demo4')" src="img/ssy1.jpg" style="margin-top: 90px;"alt="image 1">
+                                    <div class="overlay">
+                                      <div class="text text_move_down">Shushan Yard</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -260,33 +266,51 @@
                                 <div class="item">
                                     <div class="col-md-4">
                                         <img onclick="openModal('myModal1');currentSlide(1, 'mySlides1', 'demo1')" src="img/memory1.jpg" height="200" alt="image 1">
+                                        <div class="overlay">
+                                          <div class="text">Memorial Park</div>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="col-md-4">
-                                        <img onclick="openModal('myModal2');currentSlide(1, 'mySlides2', 'demo2')" src="img/vila01.jpg" height="200" alt="image 1">
+                                        <img onclick="openModal('myModal2');currentSlide(1, 'mySlides2', 'demo2')" src="img/villa01.jpg" height="200" alt="image 1">
+                                        <div class="overlay">
+                                          <div class="text">Artist Villa</div>
+                                        </div>
                                     </div>
                                 </div>
                                 
                                 <div class="item">
                                     <div class="col-md-4">
-                                        <img onclick="openModal('myModal3');currentSlide(1, 'mySlides3', 'demo3')" height="200" src="img/ruc01.jpeg" alt="image 1">
+                                        <img onclick="openModal('myModal3');currentSlide(1, 'mySlides3', 'demo3')" height="200" src="img/ruc01.jpg" alt="image 1">
+                                        <div class="overlay">
+                                          <div class="text">RUC Model</div>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="col-md-4">
                                         <img onclick="openModal('myModal5');currentSlide(1, 'mySlides5', 'demo5')" src="img/lib.jpg" height="200"   alt="image 1">
+                                        <div class="overlay">
+                                          <div class="text">Cortile Renovation</div>
+                                        </div>
                                     </div>
                                 </div>
                                 
                                 <div class="item">
                                     <div class="col-md-4">
-                                        <img onclick="openModal('myModal6');currentSlide(1, 'mySlides6', 'demo6')" height="200" src="img/mu1.jpeg" alt="image 1">
+                                        <img onclick="openModal('myModal6');currentSlide(1, 'mySlides6', 'demo6')" height="200" src="img/mu1.jpg" alt="image 1">
+                                        <div class="overlay">
+                                          <div class="text">Bus Station</div>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="col-md-4">
-                                        <img onclick="openModal('myModal7');currentSlide(1, 'mySlides7', 'demo7')" height="200" src="img/mingde1.png" alt="image 1">
+                                        <img onclick="openModal('myModal7');currentSlide(1, 'mySlides7', 'demo7')" height="200" src="img/mingde1.jpg" alt="image 1">
+                                        <div class="overlay">
+                                          <div class="text">Mingde Square</div>
+                                        </div>
                                     </div>
                                 </div>
                                 
@@ -307,50 +331,74 @@
                             <div class="item">
                                 
                                 <div class="col-md-8 container"> 
-                                    <img onclick="openModal('myModal8');currentSlide(1, 'mySlides8', 'demo8')" src="img/printmaking/print1.jpg" height="700" alt="image 1">
-                                    <!-- <div class="art-button button">
-                                        <text>Continue Reading</text>
-                                    </div> -->
+                                    <img onclick="openModal('myModal8');currentSlide(1, 'mySlides8', 'demo8')" src="img/printmaking/print1.jpg" class="art_img_1" alt="image 1">
+                                    <div class="overlay">
+                                      <div class="text text_move_down">Printmaking</div>
+                                    </div>  
                                 </div>
                                 
                             </div>
+
                             <div class="item">
-                                <div class="col-md-4">
-                                    <img onclick="openModal('myModal9');currentSlide(1, 'mySlides9', 'demo9')" src="img/sketch/sketch1.jpeg"  alt="image 1">
-                                </div>
+                              <div class="col-md-4">
+                                <img onclick="openModal('myModal9');currentSlide(1, 'mySlides9', 'demo9')" src="img/sketch/sketch1.jpg" class="art_img_2" alt="image 1">
+                                <div class="overlay">
+                                  <div class="text text_move_down">Sketch</div>
+                                </div>  
+                              </div>
                             </div>
-                            <div class="item">
+                              <div class="item">
                                 <div class="col-md-4">
-                                    <img onclick="openModal('myModal10');currentSlide(1, 'mySlides10', 'demo10')" src="img/color/color1.jpg" height="230"  alt="image 1">
-                                </div>
+                                  <img onclick="openModal('myModal10');currentSlide(1, 'mySlides10', 'demo10')" src="img/color/color1.jpg" height="268"  alt="image 1">
+                                  <div class="overlay">
+                                    <div class="text text_move_down">Watercolor</div>
+                                  </div>  
+                              </div>
                             </div>
-                        </div>
+                              
+                            
+                      </div>
 
                         <div class="row">
                             <div class="item">
                                 <div class="col-md-4">
                                     <img onclick="openModal('myModal15');currentSlide(1, 'mySlides15', 'demo15')" src="img/stuff/stuff1.jpg" alt="image 1">
+                                    <div class="overlay">
+                                      <div class="text text_move_down">Daily Ideas</div>
+                                    </div>  
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="col-md-4">
-                                    <img onclick="openModal('myModal13');currentSlide(1, 'mySlides13', 'demo13')" src="img/jewelry/jewelry1.jpeg"  height="270"alt="image 1">
+                                    <img onclick="openModal('myModal13');currentSlide(1, 'mySlides13', 'demo13')" src="img/jewelry/jewelry4.jpg"  height="270"alt="image 1">
+                                    <div class="overlay">
+                                      <div class="text text_move_down">Morphology</div>
+                                    </div>  
                                 </div>
                             </div>
                             
                             <div class="item">
                                 <div class="col-md-4">
-                                    <img onclick="openModal('myModal12');currentSlide(1, 'mySlides12', 'demo12')"  src="img/abstract/abstract1.jpeg" height="270"alt="image 1">
+                                    <img onclick="openModal('myModal12');currentSlide(1, 'mySlides12', 'demo12')"  src="img/abstract/abstract2.jpg" height="270"alt="image 1">
+                                    <div class="overlay">
+                                      <div class="text text_move_down">Abstract</div>
+                                    </div>  
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="col-md-4">
-                                    <img onclick="openModal('myModal11');currentSlide(1, 'mySlides11', 'demo11')" src="img/boardcard_exploration/bdcd1.jpg" height="210"alt="image 1">
+                                    <img onclick="openModal('myModal11');currentSlide(1, 'mySlides11', 'demo11')" src="img/cardboard_exploration/cdbd1.jpg" height="210"alt="image 1">
+                                    <div class="overlay">
+                                      <div class="text text_move_down">Cardboard Exploration</div>
+                                    </div>  
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="col-md-4">
                                     <img onclick="openModal('myModal14');currentSlide(1, 'mySlides14', 'demo14')"  src="img/photograph/photo1.jpg" alt="image 1">
+                                    <div class="overlay">
+                                      <div class="text text_move_down">Photography</div>
+                                    </div>  
                                 </div>
                             </div>
                             
@@ -384,7 +432,7 @@
                             </div>
                             <br/>
                             <div class="image">
-                                <a href="img/cooking/cook4.jpg" data-lightbox="image"><img src="img/cooking/cook4.jpg" alt="image 1"></a>
+                                <a href="img/cooking/cooka.jpg" data-lightbox="image"><img src="img/cooking/cooka.jpg" alt="image 1"></a>
                             </div>
                         </div>
                         
@@ -408,7 +456,7 @@
                         </div>
                         <div class="item">
                             <div class="image">
-                                <a href="img/cooking/cook9.jpg" data-lightbox="image"><img src="img/cooking/cook9.jpg" alt="image 1"></a>
+                                <a href="img/cooking/cookb.jpg" data-lightbox="image"><img src="img/cooking/cookb.jpg" alt="image 1"></a>
                             </div>
                             <br/>
                             <div class="image">
@@ -439,7 +487,7 @@
                             </div>
                             <br/>
                             <div class="image">
-                                <a href="img/cooking/cook16.jpg" data-lightbox="image"><img src="img/cooking/cook16.jpg" alt="image 1"></a>
+                                <a href="img/cooking/cookd.jpg" data-lightbox="image"><img src="img/cooking/cookd.jpg" alt="image 1"></a>
                             </div>
                         </div>
                         <div class="item">
@@ -475,7 +523,7 @@
                             </div>
                             <br/>
                             <div class="image">
-                                <a href="img/cooking/cook25.jpg" data-lightbox="image"><img src="img/cooking/cook25.jpg" alt="image 1"></a>
+                                <a href="img/cooking/cookc.jpg" data-lightbox="image"><img src="img/cooking/cookc.jpg" alt="image 1"></a>
                             </div>
                         </div>
                         <div class="item">
@@ -523,18 +571,10 @@
                                 <a href="img/cooking/cook36.jpg" data-lightbox="image"><img src="img/cooking/cook36.jpg" alt="image 1"></a>
                             </div>
                         </div>
+                        
                         <div class="item">
                             <div class="image">
-                                <a href="img/cooking/cook37.jpg" data-lightbox="image"><img src="img/cooking/cook37.jpg" alt="image 1"></a>
-                            </div>
-                            <br/>
-                            <div class="image">
-                                <a href="img/cooking/cook38.jpg" data-lightbox="image"><img src="img/cooking/cook38.jpg" alt="image 1"></a>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="image">
-                                <a href="img/cooking/cook39.jpg" data-lightbox="image"><img src="img/cooking/cook39.jpg" alt="image 1"></a>
+                                <a href="img/cooking/cook44.jpg" data-lightbox="image"><img src="img/cooking/cook44.jpg" alt="image 1"></a>
                             </div>
                             <br/>
                             <div class="image">
@@ -542,32 +582,17 @@
                             </div>
                         </div>
                         <div class="item">
-                            <div class="image">
-                                <a href="img/cooking/cook41.jpg" data-lightbox="image"><img src="img/cooking/cook41.jpg" alt="image 1"></a>
-                            </div>
-                            <br/>
-                            <div class="image">
-                                <a href="img/cooking/cook42.jpg" data-lightbox="image"><img src="img/cooking/cook42.jpg" alt="image 1"></a>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="image">
-                                <a href="img/cooking/cook43.jpg" data-lightbox="image"><img src="img/cooking/cook43.jpg" alt="image 1"></a>
-                            </div>
-                            <br/>
-                            <div class="image">
-                                <a href="img/cooking/cook44.jpg" data-lightbox="image"><img src="img/cooking/cook44.jpg" alt="image 1"></a>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="image">
-                                <a href="img/cooking/cook45.jpg" data-lightbox="image"><img src="img/cooking/cook45.jpg" alt="image 1"></a>
-                            </div>
-                            <br/>
-                            <div class="image">
-                                <a href="img/cooking/cook46.jpg" data-lightbox="image"><img src="img/cooking/cook46.jpg" alt="image 1"></a>
-                            </div>
-                        </div>
+                          <div class="image">
+                              <a href="img/cooking/cook37.jpg" data-lightbox="image"><img src="img/cooking/cook37.jpg" alt="image 1"></a>
+                          </div>
+                          <br/>
+                          <div class="image">
+                              <a href="img/cooking/cooke.jpg" data-lightbox="image"><img src="img/cooking/cooke.jpg" alt="image 1"></a>
+                          </div>
+                      </div>
+                        
+                        
+                        
                     </div>
                 </div>
             </section>
@@ -582,6 +607,10 @@
                         </div>
                         <div class="text-content">
                             <p>These programs aim to teach students innovation, to think critically and use engineering or technology in imaginative designs or creative approaches to real-world problems framed in social studies. I enjoy my time with the children, they are so healing!</p>
+                              <br>
+                            <p>Feedback From Students:</p>
+                            <p align="left">Selene, you have shown the utmost respect and diligence. Your teaching methods are amazing, keeping us engaged and informed about new Scratch controls and methods. It was great having you as a teacher for Scratch coding this sessions!  —— Nicole from CVTC 2020 Summer Camp
+                            </p>
                         </div>
                         <div class="accent-button button">
                             <a href="#blog">Continue Reading</a>
@@ -591,35 +620,35 @@
                     <div class="col-md-6">
                         <div class="box-STEAMEd">
                             <div class="STEAMEd-container">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/Ny1zgenyjdI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe src="https://www.youtube.com/embed/Ny1zgenyjdI" frameborder="0" width="100%" height="315" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="box-STEAMEd">
                             <div class="STEAMEd-container">
-                                <a href="img/edu1.jpg" data-lightbox="image"><img src="img/edu1.jpg" width="560" height="315" style="margin-bottom:10px;" alt="image 1"></a>
+                                <a href="img/edu1.jpg" data-lightbox="image"><img src="img/edu1.jpg" width="100%" height="315" class="edu_img" alt="image 1"></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="box-STEAMEd">
                             <div class="STEAMEd-container">
-                                <a href="img/edu3.jpg" data-lightbox="image"><img src="img/edu3.jpg" width="100%" height="275" style="margin-bottom:10px;" alt="image 1"></a>
+                                <a href="img/edu3.jpg" data-lightbox="image"><img src="img/edu3.jpg" width="100%" height="275" class="edu_img" alt="image 1"></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="box-STEAMEd">
                             <div class="STEAMEd-container">
-                                <a href="img/uccakids.jpg" data-lightbox="image"><img src="img/uccakids.jpg" width="100%" height="275" style="margin-bottom:10px;" alt="image 1"></a>
+                                <a href="img/mindmap.jpg" data-lightbox="image"><img src="img/mindmap.jpg" width="100%" height="275" class="edu_img" alt="image 1"></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="box-STEAMEd">
                             <div class="STEAMEd-container">
-                                <a href="img/education.jpg" data-lightbox="image"><img src="img/education.jpg" width="100%" height="275" style="margin-bottom:10px;" alt="image 1"></a>
+                                <a href="img/education.jpg" data-lightbox="image"><img src="img/education.jpg" width="100%" height="275" class="edu_img" alt="image 1"></a>
                             </div>
                         </div>
                     </div>
@@ -664,7 +693,7 @@
 
                                         <li>
                                             <div class="item">
-                                                <img src="img/blog3000.png" height="230" width="300" alt="">
+                                                <img src="img/blog3000.jpg" height="230" width="300" alt="">
                                                 <div class="text-content">
                                                     <h4>My Studio CT Experiments These Weeks</h4>
                                                     <span>02 Mar 2020</span>
@@ -745,7 +774,7 @@
                                     <ul>
                                         <li>
                                             <div class="item">
-                                                <img src="img/blogMulti.png" height="230" width="300" alt="">
+                                                <img src="img/blogMulti.jpg" height="230" width="300" alt="">
                                                 <div class="text-content">
                                                     <h4>Interactive - Multiplication Game</h4>
                                                     <span>12 Feb 2018</span>
@@ -760,7 +789,7 @@
                                         
                                         <li>
                                             <div class="item">
-                                                <img src="img/blogSave.png" height="230" width="300" alt="">
+                                                <img src="img/blogSave.jpg" height="230" width="300" alt="">
                                                 <div class="text-content">
                                                     <h4>Save the World!</h4>
                                                     <span>19 Dec 2019</span>
@@ -774,7 +803,7 @@
                                         </li>
                                         <li>
                                             <div class="item">
-                                                <img src="img/blogTurtle.png" height="230" width="300" alt="">
+                                                <img src="img/blogTurtle.jpg" height="230" width="300" alt="">
                                                 <div class="text-content">
                                                     <h4>Geometric Drawing Challenges</h4>
                                                     <span>19 Sep 2019</span>
@@ -793,7 +822,7 @@
                                     <ul>
                                         <li>
                                             <div class="item">
-                                                <img src="img/blogPS.png" height="230" width="300" alt="">
+                                                <img src="img/blogPS.jpg" height="230" width="300" alt="">
                                                 <div class="text-content">
                                                     <h4>Photomontage Work-in-progress</h4>
                                                     <span>26 Mar 2020</span>
@@ -807,7 +836,7 @@
                                         </li>
                                         <li>
                                             <div class="item">
-                                                <img src="img/blogFire.png" height="230" width="300" alt="">
+                                                <img src="img/blogFire.jpg" height="230" width="300" alt="">
                                                 <div class="text-content">
                                                     <h4>Sensor Input and Wireless Communication with Micro:bit</h4>
                                                     <span>14 Nov 2019</span>
@@ -821,7 +850,7 @@
                                         </li>
                                         <li>
                                             <div class="item">
-                                                <img src="img/blogClap.png" height="230" width="300" alt="">
+                                                <img src="img/blogClap.jpg" height="230" width="300" alt="">
                                                 <div class="text-content">
                                                     <h4>Makey Makey and Human-computer Interfaces</h4>
                                                     <span>06 Oct 2019</span>
@@ -925,17 +954,17 @@
 
               <div class="mySlides">
                 <div class="numbertext">4 / 6</div>
-                <img src="img/shj4.jpeg" style="width:100%;;">
+                <img src="img/shj4.jpg" style="width:100%;;">
               </div>
           
               <div class="mySlides">
                 <div class="numbertext">5 / 6</div>
-                <img src="img/shj01.png" class="modal_img">
-              </div>
+                <img src="img/shja.jpg" class="modal_img">
+              </div> -->
           
               <div class="mySlides">
                 <div class="numbertext">6 / 6</div>
-                <img src="img/shj02.png" class="modal_img">
+                <img src="img/shjb.jpg" class="modal_img">
               </div>
               
               <a class="prev" onclick="plusSlides(-1, 'mySlides', 'demo')">&#10094;</a>
@@ -956,13 +985,13 @@
                 <img class="demo cursor" src="img/shj3.jpg" style="width:100%" onclick="currentSlide(3, 'mySlides', 'demo')" alt="3">
               </div>
               <div class="column">
-                <img class="demo cursor" src="img/shj4.jpeg" style="width:100%" onclick="currentSlide(4, 'mySlides', 'demo')" alt="4">
+                <img class="demo cursor" src="img/shj4.jpg" style="width:100%" onclick="currentSlide(4, 'mySlides', 'demo')" alt="4">
               </div>
               <div class="column">
-                <img class="demo cursor" src="img/shj01.png" style="width:100%" onclick="currentSlide(5, 'mySlides', 'demo')" alt="5">
-              </div>
+                <img class="demo cursor" src="img/shja.jpg" style="width:100%" onclick="currentSlide(5, 'mySlides', 'demo')" alt="5">
+              </div> -->
               <div class="column">
-                <img class="demo cursor" src="img/shj02.png" style="width:100%" onclick="currentSlide(6, 'mySlides', 'demo')" alt="6">
+                <img class="demo cursor" src="img/shjb.jpg" style="width:100%" onclick="currentSlide(6, 'mySlides', 'demo')" alt="6">
               </div>
             </div>
         </div>
@@ -983,7 +1012,7 @@
 
               <div class="mySlides1">
                 <div class="numbertext">3 / 3</div>
-                <img src="img/memory3.jpg" class="modal_img">
+                <img src="img/memorya.jpg" class="modal_img">
               </div>
               
               
@@ -1002,7 +1031,7 @@
                 <img class="demo1 cursor" src="img/memory2.jpg" style="width:100%" onclick="currentSlide(2, 'mySlides1', 'demo1')" alt="2">
               </div>
               <div class="column">
-                <img class="demo1 cursor" src="img/memory3.jpg" style="width:100%" onclick="currentSlide(3, 'mySlides1', 'demo1')" alt="3">
+                <img class="demo1 cursor" src="img/memorya.jpg" style="width:100%" onclick="currentSlide(3, 'mySlides1', 'demo1')" alt="3">
               </div>
             </div>
         </div>
@@ -1013,17 +1042,17 @@
           
               <div class="mySlides2">
                 <div class="numbertext">1 / 3</div>
-                <img src="img/vila01.jpg" class="modal_img">
+                <img src="img/villa01.jpg" class="modal_img">
               </div>
 
               <div class="mySlides2">
                 <div class="numbertext">2 / 3</div>
-                <img src="img/vila1.jpg" class="modal_img">
+                <img src="img/villa1.jpg" class="modal_img">
               </div>
           
               <div class="mySlides2">
                 <div class="numbertext">3 / 3</div>
-                <img src="img/vila2.jpg" class="modal_img">
+                <img src="img/villa2.jpg" class="modal_img">
               </div>
 
           
@@ -1037,13 +1066,13 @@
           
           
               <div class="column">
-                <img class="demo2 cursor" src="img/vila01.jpg" style="width:100%" onclick="currentSlide(2, 'mySlides2', 'demo2')" alt="1">
+                <img class="demo2 cursor" src="img/villa01.jpg" style="width:100%" onclick="currentSlide(1, 'mySlides2', 'demo2')" alt="1">
               </div>
               <div class="column">
-                <img class="demo2 cursor" src="img/vila1.jpg" style="width:100%" onclick="currentSlide(1, 'mySlides2', 'demo2')" alt="2">
+                <img class="demo2 cursor" src="img/villa1.jpg" style="width:100%" onclick="currentSlide(2, 'mySlides2', 'demo2')" alt="2">
               </div>
               <div class="column">
-                <img class="demo2 cursor" src="img/vila2.jpg" style="width:100%" onclick="currentSlide(2, 'mySlides2', 'demo2')" alt="3">
+                <img class="demo2 cursor" src="img/villa2.jpg" style="width:100%" onclick="currentSlide(3, 'mySlides2', 'demo2')" alt="3">
               </div>
             </div>
         </div>
@@ -1054,7 +1083,7 @@
           
               <div class="mySlides3">
                 <div class="numbertext">1 / 8</div>
-                <img src="img/ruc01.jpeg" class="modal_img">
+                <img src="img/ruc01.jpg" class="modal_img">
               </div>
 
               <div class="mySlides3">
@@ -1062,35 +1091,21 @@
                 <img src="img/ruc1.jpg" class="modal_img">
               </div>
 
-              <div class="mySlides3">
-                <div class="numbertext">3 / 8</div>
-                <img src="img/ruc2.jpeg" class="modal_img">
-              </div>
+            
 
               <div class="mySlides3">
                 <div class="numbertext">4 / 8</div>
-                <img src="img/ruc3.jpeg" class="modal_img">
+                <img src="img/ruc3.jpg" class="modal_img">
               </div>
 
-              <div class="mySlides3">
-                <div class="numbertext">5 / 8</div>
-                <img src="img/ruc4.jpeg" class="modal_img">
-              </div>
-
-              <div class="mySlides3">
-                <div class="numbertext">6 / 8</div>
-                <img src="img/ruc5.jpeg" class="modal_img">
-              </div>
+              
 
               <div class="mySlides3">
                 <div class="numbertext">7 / 8</div>
-                <img src="img/ruc6.jpeg" class="modal_img">
+                <img src="img/ruc6.jpg" class="modal_img">
               </div>
 
-              <div class="mySlides3">
-                <div class="numbertext">8 / 8</div>
-                <img src="img/ruc7.jpeg" class="modal_img">
-              </div>
+             
           
               
               <a class="prev" onclick="plusSlides(-1, 'mySlides3', 'demo3')">&#10094;</a>
@@ -1102,29 +1117,20 @@
           
           
               <div class="column">
-                <img class="demo3 cursor" src="img/ruc01.jpeg" style="width:100%" onclick="currentSlide(1, 'mySlides3', 'demo3')" alt="1">
+                <img class="demo3 cursor" src="img/ruc01.jpg" style="width:100%" onclick="currentSlide(1, 'mySlides3', 'demo3')" alt="1">
               </div>
               <div class="column">
                 <img class="demo3 cursor" src="img/ruc1.jpg" style="width:100%" onclick="currentSlide(2, 'mySlides3', 'demo3')" alt="2">
               </div>
+              
               <div class="column">
-                <img class="demo3 cursor" src="img/ruc2.jpeg" style="width:100%" onclick="currentSlide(3, 'mySlides3', 'demo3')" alt="3">
+                <img class="demo3 cursor" src="img/ruc3.jpg" style="width:100%" onclick="currentSlide(3, 'mySlides3', 'demo3')" alt="4">
               </div>
+             
               <div class="column">
-                <img class="demo3 cursor" src="img/ruc3.jpeg" style="width:100%" onclick="currentSlide(4, 'mySlides3', 'demo3')" alt="4">
+                <img class="demo3 cursor" src="img/ruc6.jpg" style="width:100%" onclick="currentSlide(4, 'mySlides3', 'demo3')" alt="7">
               </div>
-              <div class="column">
-                <img class="demo3 cursor" src="img/ruc4.jpeg" style="width:100%" onclick="currentSlide(5, 'mySlides3', 'demo3')" alt="5">
-              </div>
-              <div class="column">
-                <img class="demo3 cursor" src="img/ruc5.jpeg" style="width:100%" onclick="currentSlide(6, 'mySlides3', 'demo3')" alt="6">
-              </div>
-              <div class="column">
-                <img class="demo3 cursor" src="img/ruc6.jpeg" style="width:100%" onclick="currentSlide(7, 'mySlides3', 'demo3')" alt="7">
-              </div>
-              <div class="column">
-                <img class="demo3 cursor" src="img/ruc7.jpeg" style="width:100%" onclick="currentSlide(8, 'mySlides3', 'demo3')" alt="8">
-              </div>
+              
 
             </div>
         </div>
@@ -1143,10 +1149,7 @@
                 <img src="img/ssy.jpg" class="modal_img">
               </div>
           
-              <div class="mySlides4">
-                <div class="numbertext">3 / 5</div>
-                <img src="img/ssy2.jpg" class="modal_img">
-              </div>
+             
 
               <div class="mySlides4">
                 <div class="numbertext">4 / 5</div>
@@ -1175,14 +1178,12 @@
               <div class="column">
                 <img class="demo4 cursor" src="img/ssy.jpg" style="width:100%" onclick="currentSlide(2, 'mySlides4', 'demo4')" alt="2">
               </div>
+              
               <div class="column">
-                <img class="demo4 cursor" src="img/ssy2.jpg" style="width:100%" onclick="currentSlide(3, 'mySlides4', 'demo4')" alt="3">
+                <img class="demo4 cursor" src="img/ssy3.jpg" style="width:100%" onclick="currentSlide(3, 'mySlides4', 'demo4')" alt="4">
               </div>
               <div class="column">
-                <img class="demo4 cursor" src="img/ssy3.jpg" style="width:100%" onclick="currentSlide(4, 'mySlides4', 'demo4')" alt="4">
-              </div>
-              <div class="column">
-                <img class="demo4 cursor" src="img/ssy4.jpg" style="width:100%" onclick="currentSlide(5, 'mySlides4', 'demo4')" alt="5">
+                <img class="demo4 cursor" src="img/ssy4.jpg" style="width:100%" onclick="currentSlide(4, 'mySlides4', 'demo4')" alt="5">
               </div>
               
             </div>
@@ -1199,23 +1200,19 @@
           
               <div class="mySlides5">
                 <div class="numbertext">2 / 5</div>
-                <img src="img/lib1.png" class="modal_img">
+                <img src="img/lib1.jpg" class="modal_img">
               </div>
           
               <div class="mySlides5">
                 <div class="numbertext">3 / 5</div>
-                <img src="img/lib2.png" class="modal_img">
+                <img src="img/lib2.jpg" class="modal_img">
               </div>
 
               <div class="mySlides5">
                 <div class="numbertext">4 / 5</div>
-                <img src="img/lib3.png" style="width:100%;;">
+                <img src="img/lib3.jpg" style="width:100%;;">
               </div>
           
-              <div class="mySlides5">
-                <div class="numbertext">5 / 5</div>
-                <img src="img/lib4.png" class="modal_img">
-              </div>
           
         
               
@@ -1231,17 +1228,15 @@
                 <img class="demo5 cursor" src="img/lib.jpg" style="width:100%" onclick="currentSlide(1, 'mySlides5', 'demo5')" alt="1">
               </div>
               <div class="column">
-                <img class="demo5 cursor" src="img/lib1.png" style="width:100%" onclick="currentSlide(2, 'mySlides5', 'demo5')" alt="2">
+                <img class="demo5 cursor" src="img/lib1.jpg" style="width:100%" onclick="currentSlide(2, 'mySlides5', 'demo5')" alt="2">
               </div>
               <div class="column">
-                <img class="demo5 cursor" src="img/lib2.png" style="width:100%" onclick="currentSlide(3, 'mySlides5', 'demo5')" alt="3">
+                <img class="demo5 cursor" src="img/lib2.jpg" style="width:100%" onclick="currentSlide(3, 'mySlides5', 'demo5')" alt="3">
               </div>
               <div class="column">
-                <img class="demo5 cursor" src="img/lib3.png" style="width:100%" onclick="currentSlide(4, 'mySlides5', 'demo5')" alt="4">
+                <img class="demo5 cursor" src="img/lib3.jpg" style="width:100%" onclick="currentSlide(4, 'mySlides5', 'demo5')" alt="4">
               </div>
-              <div class="column">
-                <img class="demo5 cursor" src="img/lib4.png" style="width:100%" onclick="currentSlide(5, 'mySlides5', 'demo5')" alt="5">
-              </div>
+ 
               
             </div>
         </div>
@@ -1252,22 +1247,22 @@
           
               <div class="mySlides6">
                 <div class="numbertext">1 / 4</div>
-                <img src="img/mu1.jpeg" style="width:100%;;">
+                <img src="img/mu1.jpg" style="width:100%;;">
               </div>
           
               <div class="mySlides6">
                 <div class="numbertext">2 / 4</div>
-                <img src="img/mu2.jpeg" class="modal_img">
+                <img src="img/mu2.jpg" class="modal_img">
               </div>
           
               <div class="mySlides6">
                 <div class="numbertext">3 / 4</div>
-                <img src="img/mu3.jpeg" class="modal_img">
+                <img src="img/mu3.jpg" class="modal_img">
               </div>
 
               <div class="mySlides6">
                 <div class="numbertext">4 / 4</div>
-                <img src="img/mu4.jpeg" style="width:100%;;">
+                <img src="img/mu4.jpg" style="width:100%;;">
               </div>
         
           
@@ -1280,16 +1275,16 @@
           
           
               <div class="column">
-                <img class="demo6 cursor" src="img/mu1.jpeg" style="width:100%" onclick="currentSlide(1, 'mySlides6', 'demo6')" alt="1">
+                <img class="demo6 cursor" src="img/mu1.jpg" style="width:100%" onclick="currentSlide(1, 'mySlides6', 'demo6')" alt="1">
               </div>
               <div class="column">
-                <img class="demo6 cursor" src="img/mu2.jpeg" style="width:100%" onclick="currentSlide(2, 'mySlides6', 'demo6')" alt="2">
+                <img class="demo6 cursor" src="img/mu2.jpg" style="width:100%" onclick="currentSlide(2, 'mySlides6', 'demo6')" alt="2">
               </div>
               <div class="column">
-                <img class="demo6 cursor" src="img/mu3.jpeg" style="width:100%" onclick="currentSlide(3, 'mySlides6', 'demo6')" alt="3">
+                <img class="demo6 cursor" src="img/mu3.jpg" style="width:100%" onclick="currentSlide(3, 'mySlides6', 'demo6')" alt="3">
               </div>
               <div class="column">
-                <img class="demo6 cursor" src="img/mu4.jpeg" style="width:100%" onclick="currentSlide(4, 'mySlides6', 'demo6')" alt="4">
+                <img class="demo6 cursor" src="img/mu4.jpg" style="width:100%" onclick="currentSlide(4, 'mySlides6', 'demo6')" alt="4">
               </div>
              
               
@@ -1307,12 +1302,12 @@
           
               <div class="mySlides7">
                 <div class="numbertext">2 / 3</div>
-                <img src="img/mingde1.png" class="modal_img">
+                <img src="img/mingde1.jpg" class="modal_img">
               </div>
           
               <div class="mySlides7">
                 <div class="numbertext">3 / 3</div>
-                <img src="img/souvenir.png" class="modal_img">
+                <img src="img/souvenir.jpg" class="modal_img">
               </div>
 
         
@@ -1329,10 +1324,10 @@
                 <img class="demo7 cursor" src="img/mingde.jpg" style="width:100%" onclick="currentSlide(1, 'mySlides7', 'demo7')" alt="1">
               </div>
               <div class="column">
-                <img class="demo7 cursor" src="img/mingde1.png" style="width:100%" onclick="currentSlide(2, 'mySlides7', 'demo7')" alt="2">
+                <img class="demo7 cursor" src="img/mingde1.jpg" style="width:100%" onclick="currentSlide(2, 'mySlides7', 'demo7')" alt="2">
               </div>
               <div class="column">
-                <img class="demo7 cursor" src="img/souvenir.png" style="width:100%" onclick="currentSlide(3, 'mySlides7', 'demo7')" alt="3">
+                <img class="demo7 cursor" src="img/souvenir.jpg" style="width:100%" onclick="currentSlide(3, 'mySlides7', 'demo7')" alt="3">
               </div>
              
              
@@ -1349,10 +1344,7 @@
                 <img src="img/printmaking/print1.jpg" class="modal_img">
               </div>
           
-              <div class="mySlides8">
-                <div class="numbertext">2 / 6</div>
-                <img src="img/printmaking/print2.jpg" class="modal_img">
-              </div>
+              
           
               <div class="mySlides8">
                 <div class="numbertext">3 / 6</div>
@@ -1387,20 +1379,18 @@
               <div class="column">
                 <img class="demo8 cursor" src="img/printmaking/print1.jpg" style="width:100%" onclick="currentSlide(1, 'mySlides8', 'demo8')" alt="1">
               </div>
+              
               <div class="column">
-                <img class="demo8 cursor" src="img/printmaking/print2.jpg" style="width:100%" onclick="currentSlide(2, 'mySlides8', 'demo8')" alt="2">
+                <img class="demo8 cursor" src="img/printmaking/print3.jpg" style="width:100%" onclick="currentSlide(2, 'mySlides8', 'demo8')" alt="3">
               </div>
               <div class="column">
-                <img class="demo8 cursor" src="img/printmaking/print3.jpg" style="width:100%" onclick="currentSlide(3, 'mySlides8', 'demo8')" alt="3">
+                <img class="demo8 cursor" src="img/printmaking/print4.jpg" style="width:100%" onclick="currentSlide(3, 'mySlides8', 'demo8')" alt="4">
               </div>
               <div class="column">
-                <img class="demo8 cursor" src="img/printmaking/print4.jpg" style="width:100%" onclick="currentSlide(4, 'mySlides8', 'demo8')" alt="4">
+                <img class="demo8 cursor" src="img/printmaking/print5.jpg" style="width:100%" onclick="currentSlide(4, 'mySlides8', 'demo8')" alt="5">
               </div>
               <div class="column">
-                <img class="demo8 cursor" src="img/printmaking/print5.jpg" style="width:100%" onclick="currentSlide(5, 'mySlides8', 'demo8')" alt="5">
-              </div>
-              <div class="column">
-                <img class="demo8 cursor" src="img/printmaking/print6.jpg" style="width:100%" onclick="currentSlide(6, 'mySlides8', 'demo8')" alt="6">
+                <img class="demo8 cursor" src="img/printmaking/print6.jpg" style="width:100%" onclick="currentSlide(5, 'mySlides8', 'demo8')" alt="6">
               </div>
              
              
@@ -1414,43 +1404,25 @@
           
               <div class="mySlides9">
                 <div class="numbertext">1 / 9</div>
-                <img src="img/sketch/sketch1.jpeg" class="modal_img">
+                <img src="img/sketch/sketch1.jpg" class="modal_img">
               </div>
           
           
               <div class="mySlides9">
                 <div class="numbertext">3 / 9</div>
-                <img src="img/sketch/sketch3.jpeg" class="modal_img">
+                <img src="img/sketch/sketch3.jpg" class="modal_img">
               </div>
 
-              <div class="mySlides9">
-                <div class="numbertext">4 / 9</div>
-                <img src="img/sketch/sketch4.jpeg" class="modal_img">
-              </div>
-          
+            
               <div class="mySlides9">
                 <div class="numbertext">5 / 9</div>
-                <img src="img/sketch/sketch5.jpeg" class="modal_img">
+                <img src="img/sketch/sketch5.jpg" class="modal_img">
               </div>
           
-              <div class="mySlides9">
-                <div class="numbertext">6 / 9</div>
-                <img src="img/sketch/sketch6.jpeg" class="modal_img">
-              </div>
-
-              <div class="mySlides9">
-                <div class="numbertext">7 / 9</div>
-                <img src="img/sketch/sketch7.jpeg" class="modal_img">
-              </div>
-          
-              <div class="mySlides9">
-                <div class="numbertext">8 / 9</div>
-                <img src="img/sketch/sketch8.jpeg" class="modal_img">
-              </div>
-          
+             
               <div class="mySlides9">
                 <div class="numbertext">9 / 9</div>
-                <img src="img/sketch/sketch9.jpeg" class="modal_img">
+                <img src="img/sketch/sketch9.jpg" class="modal_img">
               </div>
 
         
@@ -1464,29 +1436,19 @@
           
           
               <div class="column">
-                <img class="demo9 cursor" src="img/sketch/sketch1.jpeg" style="width:100%" onclick="currentSlide(1, 'mySlides9', 'demo9')" alt="1">
+                <img class="demo9 cursor" src="img/sketch/sketch1.jpg" style="width:100%" onclick="currentSlide(1, 'mySlides9', 'demo9')" alt="1">
               </div>
              
               <div class="column">
-                <img class="demo9 cursor" src="img/sketch/sketch3.jpeg" style="width:100%" onclick="currentSlide(3, 'mySlides9', 'demo9')" alt="3">
+                <img class="demo9 cursor" src="img/sketch/sketch3.jpg" style="width:100%" onclick="currentSlide(2, 'mySlides9', 'demo9')" alt="3">
               </div>
+              
               <div class="column">
-                <img class="demo9 cursor" src="img/sketch/sketch4.jpeg" style="width:100%" onclick="currentSlide(4, 'mySlides9', 'demo9')" alt="4">
+                <img class="demo9 cursor" src="img/sketch/sketch5.jpg" style="width:100%" onclick="currentSlide(3, 'mySlides9', 'demo9')" alt="5">
               </div>
+              
               <div class="column">
-                <img class="demo9 cursor" src="img/sketch/sketch5.jpeg" style="width:100%" onclick="currentSlide(5, 'mySlides9', 'demo9')" alt="5">
-              </div>
-              <div class="column">
-                <img class="demo9 cursor" src="img/sketch/sketch6.jpeg" style="width:100%" onclick="currentSlide(6, 'mySlides9', 'demo9')" alt="6">
-              </div>
-              <div class="column">
-                <img class="demo9 cursor" src="img/sketch/sketch7.jpeg" style="width:100%" onclick="currentSlide(7, 'mySlides9', 'demo9')" alt="4">
-              </div>
-              <div class="column">
-                <img class="demo9 cursor" src="img/sketch/sketch8.jpeg" style="width:100%" onclick="currentSlide(8, 'mySlides9', 'demo9')" alt="5">
-              </div>
-              <div class="column">
-                <img class="demo9 cursor" src="img/sketch/sketch9.jpeg" style="width:100%" onclick="currentSlide(9, 'mySlides9', 'demo9')" alt="6">
+                <img class="demo9 cursor" src="img/sketch/sketch9.jpg" style="width:100%" onclick="currentSlide(4, 'mySlides9', 'demo9')" alt="6">
               </div>
              
              
@@ -1519,26 +1481,7 @@
                 <img src="img/color/color4.jpg" class="modal_img">
               </div>
           
-              <div class="mySlides10">
-                <div class="numbertext">6 / 9</div>
-                <img src="img/color/color5.jpg" class="modal_img">
-              </div>
-
-              <div class="mySlides10">
-                <div class="numbertext">7 / 9</div>
-                <img src="img/color/color6.jpg" class="modal_img">
-              </div>
-          
-              <div class="mySlides10">
-                <div class="numbertext">8 / 9</div>
-                <img src="img/color/color7.jpg" class="modal_img">
-              </div>
-          
-              <div class="mySlides10">
-                <div class="numbertext">9 / 9</div>
-                <img src="img/color/color8.jpeg" class="modal_img">
-              </div>
-
+             
         
           
               <a class="prev" onclick="plusSlides(-1, 'mySlides10', 'demo10')">&#10094;</a>
@@ -1554,26 +1497,15 @@
               </div>
              
               <div class="column">
-                <img class="demo10 cursor" src="img/color/color2.jpg" style="width:100%" onclick="currentSlide(3, 'mySlides10', 'demo10')" alt="3">
+                <img class="demo10 cursor" src="img/color/color2.jpg" style="width:100%" onclick="currentSlide(2, 'mySlides10', 'demo10')" alt="3">
               </div>
               <div class="column">
-                <img class="demo10 cursor" src="img/color/color3.jpg" style="width:100%" onclick="currentSlide(4, 'mySlides10', 'demo10')" alt="4">
+                <img class="demo10 cursor" src="img/color/color3.jpg" style="width:100%" onclick="currentSlide(3, 'mySlides10', 'demo10')" alt="4">
               </div>
               <div class="column">
-                <img class="demo10 cursor" src="img/color/color4.jpg" style="width:100%" onclick="currentSlide(5, 'mySlides10', 'demo10')" alt="5">
+                <img class="demo10 cursor" src="img/color/color4.jpg" style="width:100%" onclick="currentSlide(4, 'mySlides10', 'demo10')" alt="5">
               </div>
-              <div class="column">
-                <img class="demo10 cursor" src="img/color/color5.jpg" style="width:100%" onclick="currentSlide(6, 'mySlides10', 'demo10')" alt="6">
-              </div>
-              <div class="column">
-                <img class="demo10 cursor" src="img/color/color6.jpg" style="width:100%" onclick="currentSlide(7, 'mySlides10', 'demo10')" alt="4">
-              </div>
-              <div class="column">
-                <img class="demo10 cursor" src="img/color/color7.jpg" style="width:100%" onclick="currentSlide(8, 'mySlides10', 'demo10')" alt="5">
-              </div>
-              <div class="column">
-                <img class="demo10 cursor" src="img/color/color8.jpeg" style="width:100%" onclick="currentSlide(9, 'mySlides10', 'demo10')" alt="6">
-              </div>
+              
              
              
               
@@ -1586,64 +1518,39 @@
           
               <div class="mySlides11">
                 <div class="numbertext">1 / 9</div>
-                <img src="img/boardcard_exploration/bdcd1.jpg" class="modal_img">
+                <img src="img/cardboard_exploration/cdbd1.jpg" class="modal_img">
               </div>
           
           
               <div class="mySlides11">
                 <div class="numbertext">3 / 9</div>
-                <img src="img/boardcard_exploration/bdcd2.jpeg" class="modal_img">
+                <img src="img/cardboard_exploration/cdbd2.jpg" class="modal_img">
               </div>
 
-              <div class="mySlides11">
-                <div class="numbertext">4 / 9</div>
-                <img src="img/boardcard_exploration/bdcd3.jpeg" class="modal_img">
-              </div>
+             
           
               <div class="mySlides11">
                 <div class="numbertext">5 / 9</div>
-                <img src="img/boardcard_exploration/bdcd4.jpeg" class="modal_img">
+                <img src="img/cardboard_exploration/cdbd4.jpg" class="modal_img">
               </div>
           
               <div class="mySlides11">
                 <div class="numbertext">6 / 9</div>
-                <img src="img/boardcard_exploration/bdcd5.jpeg" class="modal_img">
+                <img src="img/cardboard_exploration/cdbd5.jpg" class="modal_img">
               </div>
 
               <div class="mySlides11">
                 <div class="numbertext">7 / 9</div>
-                <img src="img/boardcard_exploration/bdcd6.png" class="modal_img">
+                <img src="img/cardboard_exploration/cdbd6.jpg" class="modal_img">
               </div>
           
-              <div class="mySlides11">
-                <div class="numbertext">8 / 9</div>
-                <img src="img/boardcard_exploration/bdcd7.png" class="modal_img">
-              </div>
           
               <div class="mySlides11">
                 <div class="numbertext">9 / 9</div>
-                <img src="img/boardcard_exploration/bdcd8.png" class="modal_img">
+                <img src="img/cardboard_exploration/cdbd8.jpg" class="modal_img">
               </div>
 
-              <div class="mySlides11">
-                <div class="numbertext">10 / 9</div>
-                <img src="img/boardcard_exploration/bdcd9.png" class="modal_img">
-              </div>
-          
-              <div class="mySlides11">
-                <div class="numbertext">11 / 9</div>
-                <img src="img/boardcard_exploration/bdcd10.png" class="modal_img">
-              </div>
-          
-              <div class="mySlides11">
-                <div class="numbertext">12 / 9</div>
-                <img src="img/boardcard_exploration/bdcd11.png" class="modal_img">
-              </div>
-
-              <div class="mySlides11">
-                <div class="numbertext">13 / 9</div>
-                <img src="img/boardcard_exploration/landform.jpg" class="modal_img">
-              </div>
+              
 
         
           
@@ -1656,43 +1563,27 @@
           
           
               <div class="column">
-                <img class="demo11 cursor" src="img/boardcard_exploration/bdcd1.jpg" style="width:100%" onclick="currentSlide(1, 'mySlides11', 'demo11')" alt="1">
+                <img class="demo11 cursor" src="img/cardboard_exploration/cdbd1.jpg" style="width:100%" onclick="currentSlide(1, 'mySlides11', 'demo11')" alt="1">
               </div>
              
               <div class="column">
-                <img class="demo11 cursor" src="img/boardcard_exploration/bdcd2.jpeg" style="width:100%" onclick="currentSlide(3, 'mySlides11', 'demo11')" alt="3">
+                <img class="demo11 cursor" src="img/cardboard_exploration/cdbd2.jpg" style="width:100%" onclick="currentSlide(2, 'mySlides11', 'demo11')" alt="3">
+              </div>
+              
+              <div class="column">
+                <img class="demo11 cursor" src="img/cardboard_exploration/cdbd4.jpg" style="width:100%" onclick="currentSlide(3, 'mySlides11', 'demo11')" alt="5">
               </div>
               <div class="column">
-                <img class="demo11 cursor" src="img/boardcard_exploration/bdcd3.jpeg" style="width:100%" onclick="currentSlide(4, 'mySlides11', 'demo11')" alt="4">
+                <img class="demo11 cursor" src="img/cardboard_exploration/cdbd5.jpg" style="width:100%" onclick="currentSlide(4, 'mySlides11', 'demo11')" alt="6">
               </div>
               <div class="column">
-                <img class="demo11 cursor" src="img/boardcard_exploration/bdcd4.jpeg" style="width:100%" onclick="currentSlide(5, 'mySlides11', 'demo11')" alt="5">
+                <img class="demo11 cursor" src="img/cardboard_exploration/cdbd6.jpg" style="width:100%" onclick="currentSlide(5, 'mySlides11', 'demo11')" alt="4">
               </div>
+              
               <div class="column">
-                <img class="demo11 cursor" src="img/boardcard_exploration/bdcd5.jpeg" style="width:100%" onclick="currentSlide(6, 'mySlides11', 'demo11')" alt="6">
+                <img class="demo11 cursor" src="img/cardboard_exploration/cdbd8.jpg" style="width:100%" onclick="currentSlide(6, 'mySlides11', 'demo11')" alt="6">
               </div>
-              <div class="column">
-                <img class="demo11 cursor" src="img/boardcard_exploration/bdcd6.png" style="width:100%" onclick="currentSlide(7, 'mySlides11', 'demo11')" alt="4">
-              </div>
-              <div class="column">
-                <img class="demo11 cursor" src="img/boardcard_exploration/bdcd7.png" style="width:100%" onclick="currentSlide(8, 'mySlides11', 'demo11')" alt="5">
-              </div>
-              <div class="column">
-                <img class="demo11 cursor" src="img/boardcard_exploration/bdcd8.png" style="width:100%" onclick="currentSlide(9, 'mySlides11', 'demo11')" alt="6">
-              </div>
-              <div class="column">
-                <img class="demo11 cursor" src="img/boardcard_exploration/bdcd9.png" style="width:100%" onclick="currentSlide(10, 'mySlides11', 'demo11')" alt="6">
-              </div>
-              <div class="column">
-                <img class="demo11 cursor" src="img/boardcard_exploration/bdcd10.png" style="width:100%" onclick="currentSlide(11, 'mySlides11', 'demo11')" alt="4">
-              </div>
-              <div class="column">
-                <img class="demo11 cursor" src="img/boardcard_exploration/bdcd11.png" style="width:100%" onclick="currentSlide(12, 'mySlides11', 'demo11')" alt="5">
-              </div>
-              <div class="column">
-                <img class="demo11 cursor" src="img/boardcard_exploration/landform.jpg" style="width:100%" onclick="currentSlide(13, 'mySlides11', 'demo11')" alt="6">
-              </div>
-             
+              
              
               
             </div>
@@ -1704,13 +1595,13 @@
           
               <div class="mySlides12">
                 <div class="numbertext">1 / 9</div>
-                <img src="img/abstract/abstract1.jpeg" class="modal_img">
+                <img src="img/abstract/abstract2.jpg" class="modal_img">
               </div>
           
           
               <div class="mySlides12">
                 <div class="numbertext">3 / 9</div>
-                <img src="img/abstract/abstract2.jpeg" class="modal_img">
+                <img src="img/abstract/abstract1.jpg" class="modal_img">
               </div>
 
               <div class="mySlides12">
@@ -1718,19 +1609,11 @@
                 <img src="img/abstract/abstract3.jpg" class="modal_img">
               </div>
           
-              <div class="mySlides12">
-                <div class="numbertext">5 / 9</div>
-                <img src="img/abstract/abstract4.jpeg " class="modal_img">
-              </div>
-          
-              <div class="mySlides12">
-                <div class="numbertext">6 / 9</div>
-                <img src="img/abstract/abstract5.jpg" class="modal_img">
-              </div>
+              
 
               <div class="mySlides12">
                 <div class="numbertext">7 / 9</div>
-                <img src="img/abstract/abstract6.jpeg" class="modal_img">
+                <img src="img/abstract/abstract6.jpg" class="modal_img">
               </div>
           
               <div class="mySlides12">
@@ -1740,19 +1623,10 @@
           
               <div class="mySlides12">
                 <div class="numbertext">9 / 9</div>
-                <img src="img/abstract/abstract8.jpeg" class="modal_img">
+                <img src="img/abstract/abstract8.jpg" class="modal_img">
               </div>
 
-              <div class="mySlides12">
-                <div class="numbertext">10 / 9</div>
-                <img src="img/abstract/abstract9.jpeg" class="modal_img">
-              </div>
-          
-              <div class="mySlides12">
-                <div class="numbertext">11 / 9</div>
-                <img src="img/abstract/abstract10.png" class="modal_img">
-              </div>
-          
+              
 
         
           
@@ -1765,36 +1639,26 @@
           
           
               <div class="column">
-                <img class="demo12 cursor" src="img/abstract/abstract1.jpeg" style="width:100%" onclick="currentSlide(1, 'mySlides12', 'demo12')" alt="1">
+                <img class="demo12 cursor" src="img/abstract/abstract2.jpg" style="width:100%" onclick="currentSlide(1, 'mySlides12', 'demo12')" alt="1">
               </div>
              
               <div class="column">
-                <img class="demo12 cursor" src="img/abstract/abstract2.jpeg" style="width:100%" onclick="currentSlide(3, 'mySlides12', 'demo12')" alt="3">
+                <img class="demo12 cursor" src="img/abstract/abstract1.jpg" style="width:100%" onclick="currentSlide(2, 'mySlides12', 'demo12')" alt="3">
               </div>
               <div class="column">
-                <img class="demo12 cursor" src="img/abstract/abstract3.jpg" style="width:100%" onclick="currentSlide(4, 'mySlides12', 'demo12')" alt="4">
+                <img class="demo12 cursor" src="img/abstract/abstract3.jpg" style="width:100%" onclick="currentSlide(3, 'mySlides12', 'demo12')" alt="4">
+              </div>
+             
+              <div class="column">
+                <img class="demo12 cursor" src="img/abstract/abstract6.jpg" style="width:100%" onclick="currentSlide(4, 'mySlides12', 'demo12')" alt="4">
               </div>
               <div class="column">
-                <img class="demo12 cursor" src="img/abstract/abstract4.jpeg" style="width:100%" onclick="currentSlide(5, 'mySlides12', 'demo12')" alt="5">
+                <img class="demo12 cursor" src="img/abstract/abstract7.jpg" style="width:100%" onclick="currentSlide(5, 'mySlides12', 'demo12')" alt="5">
               </div>
               <div class="column">
-                <img class="demo12 cursor" src="img/abstract/abstract5.jpg" style="width:100%" onclick="currentSlide(6, 'mySlides12', 'demo12')" alt="6">
+                <img class="demo12 cursor" src="img/abstract/abstract8.jpg" style="width:100%" onclick="currentSlide(6, 'mySlides12', 'demo12')" alt="6">
               </div>
-              <div class="column">
-                <img class="demo12 cursor" src="img/abstract/abstract6.jpeg" style="width:100%" onclick="currentSlide(7, 'mySlides12', 'demo12')" alt="4">
-              </div>
-              <div class="column">
-                <img class="demo12 cursor" src="img/abstract/abstract7.jpg" style="width:100%" onclick="currentSlide(8, 'mySlides12', 'demo12')" alt="5">
-              </div>
-              <div class="column">
-                <img class="demo12 cursor" src="img/abstract/abstract8.jpeg" style="width:100%" onclick="currentSlide(9, 'mySlides12', 'demo12')" alt="6">
-              </div>
-              <div class="column">
-                <img class="demo12 cursor" src="img/abstract/abstract9.jpeg" style="width:100%" onclick="currentSlide(10, 'mySlides12', 'demo12')" alt="6">
-              </div>
-              <div class="column">
-                <img class="demo12 cursor" src="img/abstract/abstract10.png" style="width:100%" onclick="currentSlide(11, 'mySlides12', 'demo12')" alt="4">
-              </div>
+          
               
              
               
@@ -1807,27 +1671,27 @@
           
               <div class="mySlides13">
                 <div class="numbertext">1 / 3</div>
-                <img src="img/jewelry/jewelry1.jpeg" class="modal_img">
+                <img src="img/jewelry/jewelry3.jpg" class="modal_img">
               </div>
           
               <div class="mySlides13">
                 <div class="numbertext">2 / 3</div>
-                <img src="img/jewelry/jewelry2.jpeg" class="modal_img">
+                <img src="img/jewelry/jewelry4.jpg" class="modal_img">
               </div>
 
               <div class="mySlides13">
                 <div class="numbertext">3 / 3</div>
-                <img src="img/jewelry/jewelry3.png" class="modal_img">
+                <img src="img/jewelry/jewelry5.jpg" class="modal_img">
               </div>
 
               <div class="mySlides13">
                 <div class="numbertext">4 / 3</div>
-                <img src="img/jewelry/jewelry4.jpeg" class="modal_img">
+                <img src="img/jewelry/jewelry6.jpg" class="modal_img">
               </div>
 
               <div class="mySlides13">
                 <div class="numbertext">5 / 3</div>
-                <img src="img/jewelry/jewelry5.jpeg" class="modal_img">
+                <img src="img/jewelry/jewelry7.jpg" class="modal_img">
               </div>
               
               
@@ -1840,19 +1704,19 @@
           
           
               <div class="column">
-                <img class="demo13 cursor" src="img/jewelry/jewelry1.jpeg" style="width:100%" onclick="currentSlide(1, 'mySlides13', 'demo13')" alt="1">
+                <img class="demo13 cursor" src="img/jewelry/jewelry3.jpg" style="width:100%" onclick="currentSlide(1, 'mySlides13', 'demo13')" alt="1">
               </div>
               <div class="column">
-                <img class="demo13 cursor" src="img/jewelry/jewelry2.jpeg" style="width:100%" onclick="currentSlide(2, 'mySlides13', 'demo13')" alt="2">
+                <img class="demo13 cursor" src="img/jewelry/jewelry4.jpg" style="width:100%" onclick="currentSlide(2, 'mySlides13', 'demo13')" alt="2">
               </div>
               <div class="column">
-                <img class="demo13 cursor" src="img/jewelry/jewelry3.png" style="width:100%" onclick="currentSlide(3, 'mySlides13', 'demo13')" alt="3">
+                <img class="demo13 cursor" src="img/jewelry/jewelry5.jpg" style="width:100%" onclick="currentSlide(3, 'mySlides13', 'demo13')" alt="3">
               </div>
               <div class="column">
-                <img class="demo13 cursor" src="img/jewelry/jewelry4.jpeg" style="width:100%" onclick="currentSlide(4, 'mySlides13', 'demo13')" alt="2">
+                <img class="demo13 cursor" src="img/jewelry/jewelry6.jpg" style="width:100%" onclick="currentSlide(4, 'mySlides13', 'demo13')" alt="2">
               </div>
               <div class="column">
-                <img class="demo13 cursor" src="img/jewelry/jewelry5.jpeg" style="width:100%" onclick="currentSlide(5, 'mySlides13', 'demo13')" alt="3">
+                <img class="demo13 cursor" src="img/jewelry/jewelry7.jpg" style="width:100%" onclick="currentSlide(5, 'mySlides13', 'demo13')" alt="3">
               </div>
             </div>
         </div>
@@ -1868,12 +1732,12 @@
           
               <div class="mySlides14">
                 <div class="numbertext">2 / 3</div>
-                <img src="img/photograph/photo2.jpeg" class="modal_img">
+                <img src="img/photograph/photo2.jpg" class="modal_img">
               </div>
 
               <div class="mySlides14">
                 <div class="numbertext">3 / 3</div>
-                <img src="img/photograph/photo3.jpeg" class="modal_img">
+                <img src="img/photograph/photo3.jpg" class="modal_img">
               </div>
               
               
@@ -1889,10 +1753,10 @@
                 <img class="demo14 cursor" src="img/photograph/photo1.jpg" style="width:100%" onclick="currentSlide(1, 'mySlides14', 'demo14')" alt="1">
               </div>
               <div class="column">
-                <img class="demo14 cursor" src="img/photograph/photo2.jpeg" style="width:100%" onclick="currentSlide(2, 'mySlides14', 'demo14')" alt="2">
+                <img class="demo14 cursor" src="img/photograph/photo2.jpg" style="width:100%" onclick="currentSlide(2, 'mySlides14', 'demo14')" alt="2">
               </div>
               <div class="column">
-                <img class="demo14 cursor" src="img/photograph/photo3.jpeg" style="width:100%" onclick="currentSlide(3, 'mySlides14', 'demo14')" alt="3">
+                <img class="demo14 cursor" src="img/photograph/photo3.jpg" style="width:100%" onclick="currentSlide(3, 'mySlides14', 'demo14')" alt="3">
               </div>
             </div>
         </div>
@@ -1914,7 +1778,7 @@
 
               <div class="mySlides15">
                 <div class="numbertext">4 / 9</div>
-                <img src="img/stuff/stuff3.jpeg" class="modal_img">
+                <img src="img/stuff/stuff3.jpg" class="modal_img">
               </div>
           
               <div class="mySlides15">
@@ -1927,40 +1791,23 @@
                 <img src="img/stuff/stuff5.jpg" class="modal_img">
               </div>
 
-              <div class="mySlides15">
-                <div class="numbertext">7 / 9</div>
-                <img src="img/stuff/stuff6.jpg" class="modal_img">
-              </div>
+          
           
               <div class="mySlides15">
                 <div class="numbertext">8 / 9</div>
-                <img src="img/stuff/stuff7.jpeg" class="modal_img">
+                <img src="img/stuff/stuff7.jpg" class="modal_img">
               </div>
           
               <div class="mySlides15">
                 <div class="numbertext">9 / 9</div>
-                <img src="img/stuff/stuff8.jpeg" class="modal_img">
+                <img src="img/stuff/stuff8.jpg" class="modal_img">
               </div>
 
               <div class="mySlides15">
                 <div class="numbertext">10 / 9</div>
-                <img src="img/stuff/stuff9.jpeg" class="modal_img">
+                <img src="img/stuff/stuff9.jpg" class="modal_img">
               </div>
           
-              <div class="mySlides15">
-                <div class="numbertext">11 / 9</div>
-                <img src="img/stuff/stuff10.jpeg" class="modal_img">
-              </div>
-          
-              <div class="mySlides15">
-                <div class="numbertext">12 / 9</div>
-                <img src="img/stuff/stuff11.jpeg" class="modal_img">
-              </div>
-
-              <div class="mySlides15">
-                <div class="numbertext">13 / 9</div>
-                <img src="img/stuff/stuff12.jpeg" class="modal_img">
-              </div>
 
         
           
@@ -1980,7 +1827,7 @@
                 <img class="demo15 cursor" src="img/stuff/stuff2.jpg" style="width:100%" onclick="currentSlide(3, 'mySlides15', 'demo15')" alt="3">
               </div>
               <div class="column">
-                <img class="demo15 cursor" src="img/stuff/stuff3.jpeg" style="width:100%" onclick="currentSlide(4, 'mySlides15', 'demo15')" alt="4">
+                <img class="demo15 cursor" src="img/stuff/stuff3.jpg" style="width:100%" onclick="currentSlide(4, 'mySlides15', 'demo15')" alt="4">
               </div>
               <div class="column">
                 <img class="demo15 cursor" src="img/stuff/stuff4.jpg" style="width:100%" onclick="currentSlide(5, 'mySlides15', 'demo15')" alt="5">
@@ -1989,29 +1836,17 @@
               <div class="column">
                 <img class="demo15 cursor" src="img/stuff/stuff5.jpg" style="width:100%" onclick="currentSlide(6, 'mySlides15', 'demo15')" alt="6">
               </div>
+              
               <div class="column">
-                <img class="demo15 cursor" src="img/stuff/stuff6.jpg" style="width:100%" onclick="currentSlide(7, 'mySlides15', 'demo15')" alt="4">
+                <img class="demo15 cursor" src="img/stuff/stuff7.jpg" style="width:100%" onclick="currentSlide(7, 'mySlides15', 'demo15')" alt="5">
               </div>
               <div class="column">
-                <img class="demo15 cursor" src="img/stuff/stuff7.jpeg" style="width:100%" onclick="currentSlide(8, 'mySlides15', 'demo15')" alt="5">
+                <img class="demo15 cursor" src="img/stuff/stuff8.jpg" style="width:100%" onclick="currentSlide(8, 'mySlides15', 'demo15')" alt="6">
               </div>
               <div class="column">
-                <img class="demo15 cursor" src="img/stuff/stuff8.jpeg" style="width:100%" onclick="currentSlide(9, 'mySlides15', 'demo15')" alt="6">
+                <img class="demo15 cursor" src="img/stuff/stuff9.jpg" style="width:100%" onclick="currentSlide(9, 'mySlides15', 'demo15')" alt="6">
               </div>
-              <div class="column">
-                <img class="demo15 cursor" src="img/stuff/stuff9.jpeg" style="width:100%" onclick="currentSlide(10, 'mySlides15', 'demo15')" alt="6">
-              </div>
-              <div class="column">
-                <img class="demo15 cursor" src="img/stuff/stuff10.jpeg" style="width:100%" onclick="currentSlide(11, 'mySlides15', 'demo15')" alt="4">
-              </div>
-              <div class="column">
-                <img class="demo15 cursor" src="img/stuff/stuff11.jpeg" style="width:100%" onclick="currentSlide(12, 'mySlides15', 'demo15')" alt="5">
-              </div>
-              <div class="column">
-                <img class="demo15 cursor" src="img/stuff/stuff12.jpeg" style="width:100%" onclick="currentSlide(13, 'mySlides15', 'demo15')" alt="6">
-              </div>
-             
-             
+              
               
             </div>
         </div>
@@ -2118,6 +1953,12 @@
           slides[slideIndex-1].style.display = "block";
           dots[slideIndex-1].className += " active";
         }
+
+        $(document).on('.navbar-collapse',function(e) {
+            if( $(e.target).is('a') ) {
+                $(this).removeClass('in').addClass('collapse');
+            }
+        });
     
         </script>
 
